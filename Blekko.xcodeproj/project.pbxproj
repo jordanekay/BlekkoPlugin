@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4592C46E162A45EA002B3DA4 /* BlekkoAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4592C467162A45EA002B3DA4 /* BlekkoAction.m */; };
+		4592C46F162A45EA002B3DA4 /* BlekkoHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4592C469162A45EA002B3DA4 /* BlekkoHandler.m */; };
+		4592C470162A45EA002B3DA4 /* BlekkoSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4592C46B162A45EA002B3DA4 /* BlekkoSource.m */; };
+		4592C471162A45EA002B3DA4 /* QSInterfaceController+Async.m in Sources */ = {isa = PBXBuildFile; fileRef = 4592C46D162A45EA002B3DA4 /* QSInterfaceController+Async.m */; };
+		4592C4BE162A5057002B3DA4 /* BlekkoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4592C4BD162A5057002B3DA4 /* BlekkoIcon.png */; };
+		45A647DA15BD4AB7009E4436 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A647D915BD4AB7009E4436 /* Cocoa.framework */; };
+		45A647E015BD4AB7009E4436 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45A647DE15BD4AB7009E4436 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4592C466162A45EA002B3DA4 /* BlekkoAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlekkoAction.h; sourceTree = "<group>"; };
+		4592C467162A45EA002B3DA4 /* BlekkoAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlekkoAction.m; sourceTree = "<group>"; };
+		4592C468162A45EA002B3DA4 /* BlekkoHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlekkoHandler.h; sourceTree = "<group>"; };
+		4592C469162A45EA002B3DA4 /* BlekkoHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlekkoHandler.m; sourceTree = "<group>"; };
+		4592C46A162A45EA002B3DA4 /* BlekkoSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlekkoSource.h; sourceTree = "<group>"; };
+		4592C46B162A45EA002B3DA4 /* BlekkoSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlekkoSource.m; sourceTree = "<group>"; };
+		4592C46C162A45EA002B3DA4 /* QSInterfaceController+Async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QSInterfaceController+Async.h"; sourceTree = "<group>"; };
+		4592C46D162A45EA002B3DA4 /* QSInterfaceController+Async.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QSInterfaceController+Async.m"; sourceTree = "<group>"; };
+		4592C472162A4628002B3DA4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		4592C4BD162A5057002B3DA4 /* BlekkoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlekkoIcon.png; sourceTree = "<group>"; };
+		45A647D615BD4AB7009E4436 /* Blekko.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Blekko.qsplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A647D915BD4AB7009E4436 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		45A647DF15BD4AB7009E4436 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45A647E215BD4AB7009E4436 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		45A647E315BD4AB7009E4436 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		45A647E415BD4AB7009E4436 /* Developer.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Developer.xcconfig; sourceTree = "<group>"; };
+		45A647E515BD4AB7009E4436 /* QSPlugIn.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = QSPlugIn.xcconfig; sourceTree = "<group>"; };
+		45A647E615BD4AB7009E4436 /* QSPlugIn_Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = QSPlugIn_Debug.xcconfig; sourceTree = "<group>"; };
+		45A647E715BD4AB7009E4436 /* QSPlugIn_Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = QSPlugIn_Release.xcconfig; sourceTree = "<group>"; };
+		45A647E815BD4AB7009E4436 /* Quicksilver.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quicksilver.pch; sourceTree = "<group>"; };
+		45A647E915BD4AB7009E4436 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45A647D315BD4AB7009E4436 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A647DA15BD4AB7009E4436 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4592C4BC162A4802002B3DA4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4592C4BD162A5057002B3DA4 /* BlekkoIcon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		45A647CA15BD4AB7009E4436 = {
+			isa = PBXGroup;
+			children = (
+				45A647DB15BD4AB7009E4436 /* Blekko */,
+				4592C4BC162A4802002B3DA4 /* Resources */,
+				45A647D815BD4AB7009E4436 /* Frameworks */,
+				45A647D715BD4AB7009E4436 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45A647D715BD4AB7009E4436 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45A647D615BD4AB7009E4436 /* Blekko.qsplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45A647D815BD4AB7009E4436 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45A647D915BD4AB7009E4436 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45A647DB15BD4AB7009E4436 /* Blekko */ = {
+			isa = PBXGroup;
+			children = (
+				4592C466162A45EA002B3DA4 /* BlekkoAction.h */,
+				4592C467162A45EA002B3DA4 /* BlekkoAction.m */,
+				4592C468162A45EA002B3DA4 /* BlekkoHandler.h */,
+				4592C469162A45EA002B3DA4 /* BlekkoHandler.m */,
+				4592C46A162A45EA002B3DA4 /* BlekkoSource.h */,
+				4592C46B162A45EA002B3DA4 /* BlekkoSource.m */,
+				4592C46C162A45EA002B3DA4 /* QSInterfaceController+Async.h */,
+				4592C46D162A45EA002B3DA4 /* QSInterfaceController+Async.m */,
+				45A647E115BD4AB7009E4436 /* Configuration */,
+				45A647DC15BD4AB7009E4436 /* Supporting Files */,
+			);
+			path = Blekko;
+			sourceTree = "<group>";
+		};
+		45A647DC15BD4AB7009E4436 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4592C472162A4628002B3DA4 /* Info.plist */,
+				45A647DE15BD4AB7009E4436 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45A647E115BD4AB7009E4436 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				45A647E215BD4AB7009E4436 /* Common.xcconfig */,
+				45A647E315BD4AB7009E4436 /* Debug.xcconfig */,
+				45A647E415BD4AB7009E4436 /* Developer.xcconfig */,
+				45A647E515BD4AB7009E4436 /* QSPlugIn.xcconfig */,
+				45A647E615BD4AB7009E4436 /* QSPlugIn_Debug.xcconfig */,
+				45A647E715BD4AB7009E4436 /* QSPlugIn_Release.xcconfig */,
+				45A647E815BD4AB7009E4436 /* Quicksilver.pch */,
+				45A647E915BD4AB7009E4436 /* Release.xcconfig */,
+			);
+			name = Configuration;
+			path = /private/tmp/QS/Configuration;
+			sourceTree = "<absolute>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45A647D515BD4AB7009E4436 /* Blekko */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A647F415BD4AB7009E4436 /* Build configuration list for PBXNativeTarget "Blekko" */;
+			buildPhases = (
+				45A647D115BD4AB7009E4436 /* ShellScript */,
+				45A647D215BD4AB7009E4436 /* Sources */,
+				45A647D315BD4AB7009E4436 /* Frameworks */,
+				45A647D415BD4AB7009E4436 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blekko;
+			productName = Blekko;
+			productReference = 45A647D615BD4AB7009E4436 /* Blekko.qsplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45A647CC15BD4AB7009E4436 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Twitter, Inc.";
+			};
+			buildConfigurationList = 45A647CF15BD4AB7009E4436 /* Build configuration list for PBXProject "Blekko" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 45A647CA15BD4AB7009E4436;
+			productRefGroup = 45A647D715BD4AB7009E4436 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45A647D515BD4AB7009E4436 /* Blekko */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45A647D415BD4AB7009E4436 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A647E015BD4AB7009E4436 /* InfoPlist.strings in Resources */,
+				4592C4BE162A5057002B3DA4 /* BlekkoIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45A647D115BD4AB7009E4436 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "\"$QS_BUILD_ROOT/Tools/bltrversion\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45A647D215BD4AB7009E4436 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4592C46E162A45EA002B3DA4 /* BlekkoAction.m in Sources */,
+				4592C46F162A45EA002B3DA4 /* BlekkoHandler.m in Sources */,
+				4592C470162A45EA002B3DA4 /* BlekkoSource.m in Sources */,
+				4592C471162A45EA002B3DA4 /* QSInterfaceController+Async.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45A647DE15BD4AB7009E4436 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45A647DF15BD4AB7009E4436 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45A647F215BD4AB7009E4436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45A647E315BD4AB7009E4436 /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		45A647F315BD4AB7009E4436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45A647E915BD4AB7009E4436 /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		45A647F515BD4AB7009E4436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45A647E515BD4AB7009E4436 /* QSPlugIn.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		45A647F615BD4AB7009E4436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45A647E515BD4AB7009E4436 /* QSPlugIn.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45A647CF15BD4AB7009E4436 /* Build configuration list for PBXProject "Blekko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A647F215BD4AB7009E4436 /* Debug */,
+				45A647F315BD4AB7009E4436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45A647F415BD4AB7009E4436 /* Build configuration list for PBXNativeTarget "Blekko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A647F515BD4AB7009E4436 /* Debug */,
+				45A647F615BD4AB7009E4436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45A647CC15BD4AB7009E4436 /* Project object */;
+}
