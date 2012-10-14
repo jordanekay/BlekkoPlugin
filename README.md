@@ -1,4 +1,5 @@
 Blekko Search Plugin
 ====================
 ![](https://s3.amazonaws.com/files.droplr.com/files_production/acc_40261/EVug?AWSAccessKeyId=AKIAJSVQN3Z4K7MT5U2A&Expires=1350184538&Signature=s4M8e%2BJvew3XFrY3XgxLQXZ3rOw%3D&response-content-disposition=inline%3B%20filename%3DImage%2Bupload%2Bon%2B2012-10-13%2Bat%2B19%253A16%253A20.png) ![](https://s3.amazonaws.com/files.droplr.com/files_production/acc_40261/akAq?AWSAccessKeyId=AKIAJSVQN3Z4K7MT5U2A&Expires=1350184625&Signature=V6O76%2BlOs6Y4CU8zD0AhFPspoZc%3D&response-content-disposition=inline%3B%20filename%3DImage%2Bupload%2Bon%2B2012-10-13%2Bat%2B19%253A17%253A47.png) 
+
 Search the Web within Quicksilver using the Blekko Search Plugin. Type a search query, and Quicksilver will list the Web sites that match your query, instantly filterable keyboard-navigable. Return will open that Web site in your browser.
