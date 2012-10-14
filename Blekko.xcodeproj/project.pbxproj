@@ -7,16 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45536E5F162B1C2800B25A95 /* BlekkoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 45536E5C162B1C2800B25A95 /* BlekkoIcon.png */; };
+		45536E60162B1C2800B25A95 /* screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 45536E5D162B1C2800B25A95 /* screenshot1.png */; };
+		45536E61162B1C2800B25A95 /* screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 45536E5E162B1C2800B25A95 /* screenshot2.png */; };
+		45536E64162B1CE100B25A95 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45536E63162B1CE100B25A95 /* Info.plist */; };
 		4592C46E162A45EA002B3DA4 /* BlekkoAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4592C467162A45EA002B3DA4 /* BlekkoAction.m */; };
 		4592C46F162A45EA002B3DA4 /* BlekkoHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4592C469162A45EA002B3DA4 /* BlekkoHandler.m */; };
 		4592C470162A45EA002B3DA4 /* BlekkoSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4592C46B162A45EA002B3DA4 /* BlekkoSource.m */; };
 		4592C471162A45EA002B3DA4 /* QSInterfaceController+Async.m in Sources */ = {isa = PBXBuildFile; fileRef = 4592C46D162A45EA002B3DA4 /* QSInterfaceController+Async.m */; };
-		4592C4BE162A5057002B3DA4 /* BlekkoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4592C4BD162A5057002B3DA4 /* BlekkoIcon.png */; };
 		45A647DA15BD4AB7009E4436 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A647D915BD4AB7009E4436 /* Cocoa.framework */; };
 		45A647E015BD4AB7009E4436 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45A647DE15BD4AB7009E4436 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45536E5C162B1C2800B25A95 /* BlekkoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BlekkoIcon.png; path = Blekko/BlekkoIcon.png; sourceTree = "<group>"; };
+		45536E5D162B1C2800B25A95 /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot1.png; path = Blekko/screenshot1.png; sourceTree = "<group>"; };
+		45536E5E162B1C2800B25A95 /* screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot2.png; path = Blekko/screenshot2.png; sourceTree = "<group>"; };
+		45536E63162B1CE100B25A95 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4592C466162A45EA002B3DA4 /* BlekkoAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlekkoAction.h; sourceTree = "<group>"; };
 		4592C467162A45EA002B3DA4 /* BlekkoAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlekkoAction.m; sourceTree = "<group>"; };
 		4592C468162A45EA002B3DA4 /* BlekkoHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlekkoHandler.h; sourceTree = "<group>"; };
@@ -25,8 +32,6 @@
 		4592C46B162A45EA002B3DA4 /* BlekkoSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlekkoSource.m; sourceTree = "<group>"; };
 		4592C46C162A45EA002B3DA4 /* QSInterfaceController+Async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QSInterfaceController+Async.h"; sourceTree = "<group>"; };
 		4592C46D162A45EA002B3DA4 /* QSInterfaceController+Async.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QSInterfaceController+Async.m"; sourceTree = "<group>"; };
-		4592C472162A4628002B3DA4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
-		4592C4BD162A5057002B3DA4 /* BlekkoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlekkoIcon.png; sourceTree = "<group>"; };
 		45A647D615BD4AB7009E4436 /* Blekko.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Blekko.qsplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		45A647D915BD4AB7009E4436 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		45A647DF15BD4AB7009E4436 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -55,7 +60,9 @@
 		4592C4BC162A4802002B3DA4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4592C4BD162A5057002B3DA4 /* BlekkoIcon.png */,
+				45536E5C162B1C2800B25A95 /* BlekkoIcon.png */,
+				45536E5D162B1C2800B25A95 /* screenshot1.png */,
+				45536E5E162B1C2800B25A95 /* screenshot2.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -106,7 +113,7 @@
 		45A647DC15BD4AB7009E4436 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4592C472162A4628002B3DA4 /* Info.plist */,
+				45536E63162B1CE100B25A95 /* Info.plist */,
 				45A647DE15BD4AB7009E4436 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -181,7 +188,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				45A647E015BD4AB7009E4436 /* InfoPlist.strings in Resources */,
-				4592C4BE162A5057002B3DA4 /* BlekkoIcon.png in Resources */,
+				45536E5F162B1C2800B25A95 /* BlekkoIcon.png in Resources */,
+				45536E60162B1C2800B25A95 /* screenshot1.png in Resources */,
+				45536E61162B1C2800B25A95 /* screenshot2.png in Resources */,
+				45536E64162B1CE100B25A95 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +258,7 @@
 			baseConfigurationReference = 45A647E515BD4AB7009E4436 /* QSPlugIn.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				INFOPLIST_FILE = Blekko/Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -257,6 +268,7 @@
 			baseConfigurationReference = 45A647E515BD4AB7009E4436 /* QSPlugIn.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				INFOPLIST_FILE = Blekko/Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
